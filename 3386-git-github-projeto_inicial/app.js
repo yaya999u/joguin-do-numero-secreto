@@ -60,7 +60,7 @@ function limparCampo() {
 function reiniciarJogo() {
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
-    tentativas = 2;
+    tentativas = 1;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
